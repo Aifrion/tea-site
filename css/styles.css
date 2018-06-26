@@ -1,0 +1,151 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+
+}
+
+.navbar {
+  height: 69px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  margin: -69px 20px auto auto;
+  z-index: 1;
+  background-color: black;
+}
+
+.navbar .tea-logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.navbar .nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.navbar .nav-items a {
+  color: gray;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.main-content {
+  display: flex;
+  margin-top: 69px;
+  z-index: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-content .herb-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+#herb-image {
+  position: relative;
+}
+
+.main-content .herb-container #mission {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+#featured-tea {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.main-content .tea-info {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-content .tea-info .tea-pics {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-content .tea-info img {
+  height: 200px;
+  width: 300px;
+}
+
+.main-content #locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+#coffee-image {
+  background-image: url('../resources/images/coffee.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  margin: auto 25px;
+}
+
+#coffee-image .location-list {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.coffee-text-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+  opacity: 1;
+  margin: auto 20px;
+}
+
+.footer {
+  text-align: center;
+}
+ #copyright {
+  text-align: left;
+  margin-left: 20px;
+}
